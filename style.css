@@ -1,0 +1,81 @@
+body {
+    background-color: #ededed; /* Light background for better contrast */
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+}
+
+.container {
+    max-width: 600px; /* Limit the width for larger screens */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background for the form */
+    text-align: left; /* Center text and images */
+}
+.gif {
+    width: 50%; /* Adjust this value for desired width */
+    height: 280px; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for GIF */
+    margin: 10px auto; /* Center the GIF horizontally */
+    display: block; /* Ensure it behaves like a block element */
+    margin-bottom: 20px; /* Space below the GIF */
+}
+
+
+.responsive-image, .responsive-gif {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for images */
+    margin-bottom: 20px; /* Space between images */
+}
+
+
+.form-group {
+    margin-bottom: 15px; /* Spacing between form elements */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Space between radio buttons and labels */
+}
+
+input.form-control {
+    border-radius: 5px; /* Rounded input fields */
+    border: 1px solid #ced4da; /* Light border */
+}
+
+input.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.btn {
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover for primary button */
+}
+
+.btn-secondary:hover {
+    background-color: #6c757d; /* Darker grey on hover for secondary button */
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 15px; /* Adjust padding for mobile view */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Smaller title on mobile */
+    }
+
+    .btn {
+        font-size: 1rem; /* Larger button text for better usability */
+    }
+}
